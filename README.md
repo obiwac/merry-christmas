@@ -1,7 +1,7 @@
 # Happy Holidays bootloader
 
 x86 boot-sector program that shows a rainbow-coloured "Joyeux Noël, Alexis !" ("Happy Holidays, Alexis!" in French) message on the screen.
-Technically it's a boot sector + another for some of the graphics, as even compressed they wouldn't fit in a single sector.
+Technically it's a boot sector + another for some of the graphics (total 1024 bytes), as even compressed they wouldn't fit in a single sector.
 
 ![Screenshot](eyecandy/screenshot.png)
 
